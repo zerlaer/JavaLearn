@@ -1,7 +1,9 @@
+package Basic;
+
 /**
  * @author Zerlaer
  * @date 2020/12/1 14:30
- * @name ArrayList
+ * @name Basic.ArrayList
  * @blog zerlaer.com
  */
 public class ArrayList {
