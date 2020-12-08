@@ -21,5 +21,6 @@ public class UseScaner {
         System.out.println("请输入的任意字符：");
         String str = scanner.next();
         System.out.println("输入的字符串为：" + str);
+
     }
 }

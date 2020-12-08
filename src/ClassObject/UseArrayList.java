@@ -27,5 +27,20 @@ public class UseArrayList {
     // 获取集合长度
     int size = list.size();
     System.out.println("集合长度为：" + size); // 集合长度为：5
+    // 根据元素值删除元素
+    list.remove("张三");
+    System.out.println(list); // [李四, 王五, 李七, 赵六]
+    // 根据索引删除第一号元素
+    list.remove(0);
+    System.out.println(list); // [王五, 李七, 赵六]
+    System.out.println(list.size());
+    // ArrayList不能装普通数据类型，只能装引用类型，若要使用，需要使用包装类
+    ArrayList<Integer> intlist = new ArrayList<>();
+    ArrayList<Short> shortlist = new ArrayList<>();
+    ArrayList<Long> longlist = new ArrayList<>();
+    ArrayList<Byte> bytelist = new ArrayList<>();
+    ArrayList<Float> floatlist = new ArrayList<>();
+    ArrayList<Double> charlist = new ArrayList<>();
+    ArrayList<Boolean> boollist = new ArrayList<>();
   }
 }

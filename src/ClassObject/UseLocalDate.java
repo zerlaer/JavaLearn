@@ -15,5 +15,11 @@ public class UseLocalDate {
         // 使用Java类库中的localDate
         LocalDate date = LocalDate.now();
         System.out.println(date);
+        LocalDate newYear = LocalDate.of(1992, 11, 14);
+        System.out.println(newYear);
+        System.out.println(newYear.getYear());
+        System.out.println(newYear.getMonthValue());
+        System.out.println(newYear.getDayOfMonth());
+
     }
 }
