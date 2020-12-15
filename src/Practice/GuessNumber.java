@@ -15,26 +15,34 @@ package Practice;
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * The type Guess number.
+ */
 public class GuessNumber {
-  public static void main(String[] args) {
-    // 设置固定的随机数
-    Random r = new Random();
-    // 设置随机数的范围为0到100；
-    final int randomNum = r.nextInt(101);
-    Scanner sc = new Scanner(System.in);
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
+    public static void main(String[] args) {
+        // 设置固定的随机数
+        Random r = new Random();
+        // 设置随机数的范围为0到100；
+        final int randomNum = r.nextInt(101);
+        Scanner sc = new Scanner(System.in);
 
-    while (true) {
-      System.out.println("请输入您要猜的数字：");
-      int guessNum = sc.nextInt();
-      if (guessNum > randomNum) {
-        System.out.println("太大了");
-      } else if (guessNum < randomNum) {
-        System.out.println("太小了");
-      } else {
-        System.out.println("恭喜你猜中了，数字为" + randomNum);
-        break;
-      }
+        while (true) {
+            System.out.println("请输入您要猜的数字：");
+            int guessNum = sc.nextInt();
+            if (guessNum > randomNum) {
+                System.out.println("太大了");
+            } else if (guessNum < randomNum) {
+                System.out.println("太小了");
+            } else {
+                System.out.println("恭喜你猜中了，数字为" + randomNum);
+                break;
+            }
+        }
+        System.out.println("游戏结束啦!");
     }
-    System.out.println("游戏结束啦!");
-  }
 }

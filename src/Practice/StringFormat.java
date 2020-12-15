@@ -10,7 +10,15 @@ package Practice;
 
 import java.util.Date;
 
+/**
+ * The type String format.
+ */
 public class StringFormat {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         double x = 1000.00 / 3.0;
         System.out.println(x);

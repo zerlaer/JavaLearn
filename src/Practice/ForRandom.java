@@ -9,21 +9,29 @@ package Practice;
 import java.util.ArrayList;
 import java.util.Random;
 
+/**
+ * The type For random.
+ */
 // 生成6个1-33之间的随机整数，添加到集合，并遍历集合
 public class ForRandom {
-  public static void main(String[] args) {
-    ArrayList<Integer> list = new ArrayList<>();
-    for (int i = 0; i < 6; i++) {
-      Random r = new Random();
-      int num = r.nextInt(33) + 1;
-      list.add(num);
-      System.out.println(num);
-    }
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
+    public static void main(String[] args) {
+        ArrayList<Integer> list = new ArrayList<>();
+        for (int i = 0; i < 6; i++) {
+            Random r = new Random();
+            int num = r.nextInt(33) + 1;
+            list.add(num);
+            System.out.println(num);
+        }
 
-    System.out.println(list);
+        System.out.println(list);
 
-    for (int j = 0; j < list.size(); j++) {
-      System.out.println(list.get(j));
+        for (int j = 0; j < list.size(); j++) {
+            System.out.println(list.get(j));
+        }
     }
-  }
 }
