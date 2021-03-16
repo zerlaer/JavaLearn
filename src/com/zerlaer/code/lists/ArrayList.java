@@ -1,6 +1,6 @@
 package com.zerlaer.code.lists;
 
-/**
+/*
  * @author Zerlaer
  * @date 2020/12/1 14:30
  * @name com.zerlaer.ClassObject.Basic.ArrayList
@@ -14,6 +14,7 @@ public class ArrayList {
         System.out.println("数组长度" + arrayA.length);
         // 遍历数组
         int i = 0;
+
         while (i < arrayA.length) {
             System.out.println(arrayA[i]);
             i++;

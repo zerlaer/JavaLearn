@@ -16,6 +16,10 @@ root = true
 # ij_visual_guides = none
 # ij_wrap_on_typing = false
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
 [*.java]
 # ij_java_align_consecutive_assignments = false
 # ij_java_align_consecutive_variable_declarations = false
@@ -94,6 +98,17 @@ root = true
 # ij_java_doc_preserve_line_breaks = false
 # ij_java_doc_use_throws_not_exception_tag = true
 # ij_java_else_on_new_line = false
+<<<<<<< HEAD
+=======
+# ij_java_entity_dd_suffix = EJB
+# ij_java_entity_eb_suffix = Bean
+# ij_java_entity_hi_suffix = Home
+# ij_java_entity_lhi_prefix = Local
+# ij_java_entity_lhi_suffix = Home
+# ij_java_entity_li_prefix = Local
+# ij_java_entity_pk_class = java.lang.String
+# ij_java_entity_vo_suffix = VO
+>>>>>>> origin/main
 # ij_java_enum_constants_wrap = off
 # ij_java_extends_keyword_wrap = off
 # ij_java_extends_list_wrap = off
@@ -110,10 +125,17 @@ root = true
 # ij_java_indent_case_from_switch = true
 # ij_java_insert_inner_class_imports = false
 # ij_java_insert_override_annotation = true
+<<<<<<< HEAD
 # ij_java_keep_blank_lines_before_right_brace = 1
 # ij_java_keep_blank_lines_between_package_declaration_and_header = 1
 # ij_java_keep_blank_lines_in_code = 1
 # ij_java_keep_blank_lines_in_declarations = 1
+=======
+# ij_java_keep_blank_lines_before_right_brace = 2
+# ij_java_keep_blank_lines_between_package_declaration_and_header = 2
+# ij_java_keep_blank_lines_in_code = 2
+# ij_java_keep_blank_lines_in_declarations = 2
+>>>>>>> origin/main
 # ij_java_keep_control_statement_in_one_line = true
 # ij_java_keep_first_column_comment = true
 # ij_java_keep_indents_on_empty_lines = false
@@ -129,6 +151,11 @@ root = true
 # ij_java_layout_static_imports_separately = true
 # ij_java_line_comment_add_space = false
 # ij_java_line_comment_at_first_column = true
+<<<<<<< HEAD
+=======
+# ij_java_message_dd_suffix = EJB
+# ij_java_message_eb_suffix = Bean
+>>>>>>> origin/main
 # ij_java_method_annotation_wrap = split_into_lines
 # ij_java_method_brace_style = end_of_line
 # ij_java_method_call_chain_wrap = off
@@ -154,6 +181,16 @@ root = true
 # ij_java_resource_list_right_paren_on_new_line = false
 # ij_java_resource_list_wrap = off
 # ij_java_rparen_on_new_line_in_record_header = false
+<<<<<<< HEAD
+=======
+# ij_java_session_dd_suffix = EJB
+# ij_java_session_eb_suffix = Bean
+# ij_java_session_hi_suffix = Home
+# ij_java_session_lhi_prefix = Local
+# ij_java_session_lhi_suffix = Home
+# ij_java_session_li_prefix = Local
+# ij_java_session_si_suffix = Service
+>>>>>>> origin/main
 # ij_java_space_after_closing_angle_bracket_in_type_argument = false
 # ij_java_space_after_colon = true
 # ij_java_space_after_comma = true
@@ -248,6 +285,10 @@ root = true
 # ij_java_wrap_first_method_in_call_chain = false
 # ij_java_wrap_long_lines = false
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
 [.editorconfig]
 # ij_editorconfig_align_group_field_declarations = false
 # ij_editorconfig_space_after_colon = false
@@ -255,3 +296,8 @@ root = true
 # ij_editorconfig_space_before_colon = false
 # ij_editorconfig_space_before_comma = false
 # ij_editorconfig_spaces_around_assignment_operators = true
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> origin/main
